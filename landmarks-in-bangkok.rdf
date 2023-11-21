@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/landmarks-in-bangkok/"
+     xml:base="http://www.semanticweb.org/landmarks-in-bangkok/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/landmarks-in-bangkok"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasDressCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasDressCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#DressCode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasFacility">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Facility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasFitSeason -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasFitSeason">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasLandmark -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasLandmark">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#isLocatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#District"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasNearestBusStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasNearestBusStation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#hasNearestStation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#BusStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasNearestStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasNearestStation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Station"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasNearestTrainStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasNearestTrainStation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#hasNearestStation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#TrainStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasReview -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasReview">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasSubDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasSubDistrict">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#isLocatedInDistrict"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasVisitor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasVisitor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Visitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#isLocatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#isLocatedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#SubDistrict"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#isLocatedInDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#isLocatedInDistrict">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#SubDistrict"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#District"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasMinimumExpense -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasMinimumExpense">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasReviewDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasReviewDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#hasVisitorAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#hasVisitorAmount"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#BusStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#BusStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Station"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#TrainStation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#District -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#District"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#DressCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#DressCode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Facility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Landmark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Month">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#April"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#August"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#December"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#February"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#January"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#July"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#June"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#March"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#May"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#November"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#October"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#September"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Rating">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#1"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#3"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#4"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#5"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Season">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#RainySeason"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Summer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Winter"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Station -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Station"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#SubDistrict -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#SubDistrict"/>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#TrainStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#TrainStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Station"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Visitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Visitor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#April -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#April">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#August -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#August">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#December -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#December">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#February -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#February">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#January -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#January">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#July -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#July">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#June -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#June">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#March -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#March">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#May -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#May">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#November -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#November">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#October -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#October">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#RainySeason -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#RainySeason">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#September -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#September">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Summer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Winter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/landmarks-in-bangkok#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#District"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#DressCode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Facility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Landmark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Rating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Review"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Season"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Station"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#SubDistrict"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Visitor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#April"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#August"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#December"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#February"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#January"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#July"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#June"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#March"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#May"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#November"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#October"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#September"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#RainySeason"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Summer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#Winter"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/landmarks-in-bangkok#5"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
