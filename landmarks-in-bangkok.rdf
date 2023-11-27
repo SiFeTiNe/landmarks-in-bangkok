@@ -1133,6 +1133,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Rest_areas"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Viewing_platforms"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Siam_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Siam_Station"/>
@@ -1205,6 +1206,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Shopping_stalls"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Kamphaeng_Phet_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_MoChit_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Chtuchak_Park_Station"/>
@@ -1224,6 +1226,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Rest_areas"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Shopping_stalls"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Hua_lamphong_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Wat_Mangkon_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Samphanthawong"/>
@@ -1353,6 +1356,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Siam_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Siam_Station"/>
@@ -1407,6 +1411,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sirindhorn_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
@@ -1549,6 +1554,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_SaintLouis_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Saladaeng_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Surasak_Station"/>
@@ -1588,6 +1594,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Photograph_area"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Playground"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Ratchadamri_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Saladaeng_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Lumphini_Station"/>
@@ -2845,6 +2852,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wi-Fi_Hotspots"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTPink_Nopparat_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Khan_Na_Yao"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</f:hasMinimumExpense>
@@ -2865,6 +2873,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_NationalStadium_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Ratchadamri_Station"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
@@ -2948,6 +2957,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes"/>
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
@@ -2971,6 +2981,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
@@ -3038,6 +3049,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Itsaraphap_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
@@ -3057,6 +3069,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Worship_areas"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
@@ -3092,6 +3105,7 @@
         <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Worship_areas"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasInappropriateSeason rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason"/>
         <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Ratchabophit"/>
