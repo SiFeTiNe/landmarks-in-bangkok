@@ -42,18 +42,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#hasDressCode -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#hasDressCode">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#DressCode"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#hasFacility -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#hasFacility">
@@ -1434,7 +1422,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Khao_San_Road">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <f:hasDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sirindhorn_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Talat_Yot"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -1565,6 +1555,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#King_Power_Mahanakhon_Skywalk">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_SaintLouis_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Saladaeng_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Surasak_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yan_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_ChongNonsi_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Si_Lom"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -1591,7 +1586,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Lumpini_Park_Thailand">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <f:hasDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Ratchadamri_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Saladaeng_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Lumphini_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yan_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Si_Lom_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wang_Mai"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -1602,7 +1601,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MBK_Center">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <f:hasDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Siam_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Siam_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yan_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_NationalStadium_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wang_Mai"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2648,6 +2651,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#SEA_LIFE_Bangkok_Ocean_World">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_NationalStadium_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Ratchadamri_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Siam_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Siam_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Pathum_Wan"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">981</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2828,6 +2836,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Siam_Amazing_Park">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTPink_Nopparat_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Khan_Na_Yao"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2838,6 +2847,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Siam_Square">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_NationalStadium_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Ratchadamri_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Ratchathewi_Station"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yan_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_Siam_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSukhumvit_Siam_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Pathum_Wan"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2906,8 +2921,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#The_National_Museum_of_Bangkok">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <f:hasDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Smart_Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2918,9 +2934,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#The_Royal_Palace">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
-        <f:hasDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Semi-Formal"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -2979,24 +2996,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun_temple -->
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun_Temple -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun_temple">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun_Temple">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Itsaraphap_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Arun"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</f:hasMinimumExpense>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Pho -->
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Pho_Temple -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Pho">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Pho_Temple">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Phra_Borom_Maha_Ratchawang"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -3014,12 +3034,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Suthat -->
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Suthat_Temple -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Suthat">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Suthat_Temple">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Casual"/>
         <f:hasInappropriateDressCode rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual"/>
+        <f:hasNearTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sanam_Chai_Station"/>
+        <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#MRTBlue_Sam_Yot_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wat_Ratchabophit"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</f:hasMinimumExpense>
     </owl:NamedIndividual>
@@ -3382,5 +3404,6 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
