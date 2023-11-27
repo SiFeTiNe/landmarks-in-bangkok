@@ -463,10 +463,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Accessible_restrooms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Accessible_restrooms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Amusement_rides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Amusement_rides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#April -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#April">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Art_galleries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Art_galleries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Assistive_listening_systems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Assistive_listening_systems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Audio_guides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Audio_guides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -1069,10 +1109,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Bicycle_rental_stations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Bicycle_rental_stations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Black-Tie -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Black-Tie">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#DressCode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Boating_facilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Boating_facilities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -1127,6 +1183,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Cinema_complexes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Cinema_complexes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Cultural_workshops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Cultural_workshops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#December -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#December">
@@ -1135,10 +1207,170 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Digital_displays -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Digital_displays">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Educational_exhibits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Educational_exhibits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Educational_programs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Educational_programs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Emergency_exits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Emergency_exits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Emergency_response_stations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Emergency_response_stations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Entertainment_stages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Entertainment_stages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Event_spaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Event_spaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Exhibition_halls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Exhibition_halls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Exhibition_spaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Exhibition_spaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#February -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#February">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Fire_prevention_systems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Fire_prevention_systems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#First_aid_stations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#First_aid_stations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Food_courts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Food_courts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Gaming_zones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Gaming_zones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Green_spaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Green_spaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Guided_tours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Guided_tours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_centers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_centers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_desks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_desks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_displays -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_displays">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_kiosks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Information_kiosks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Interactive_exhibits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Interactive_exhibits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -1161,6 +1393,14 @@
         <f:hasNearestTransitStation rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#BTSSilom_NationalStadium_Station"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wang_Mai"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</f:hasMinimumExpense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Jogging_paths -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Jogging_paths">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -1327,6 +1567,22 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Landmark"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Si_Lom"/>
         <f:hasMinimumExpense rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</f:hasMinimumExpense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Learning_centers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Learning_centers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Lecture_halls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Lecture_halls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2217,10 +2473,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Meditation_spaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Meditation_spaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Museums -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Museums">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#November -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#November">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Observation_decks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Observation_decks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2233,11 +2513,43 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Outdoor_exercise_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Outdoor_exercise_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Parking_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Parking_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Pathum_Wan -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Pathum_Wan">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#SubDistrict"/>
         <f:isLocatedIn rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Khet_Pathum_Wan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Performing_arts_theaters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Performing_arts_theaters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Photography_zones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Photography_zones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2260,10 +2572,74 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Picnic_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Picnic_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Playgrounds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Playgrounds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Public_transportation_hubs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Public_transportation_hubs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#RainySeason">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Recycling_stations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Recycling_stations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Religious_ceremonies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Religious_ceremonies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Rest_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Rest_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Restaurants_and_cafes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Retail_stores">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2399,6 +2775,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Sculpture_gardens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Sculpture_gardens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Security_personnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Security_personnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Semi-Formal -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Semi-Formal">
@@ -2411,6 +2803,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#September">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Shopping_stalls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Shopping_stalls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2452,10 +2852,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Souvenir_shops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Summer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Summer">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Surveillance_systems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Sustainable_architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Sustainable_architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2503,10 +2927,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Theatres_and_performance_spaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Theatres_and_performance_spaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Ultra_Casual">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#DressCode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Viewing_platforms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Viewing_platforms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Visitor_centers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Visitor_centers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2578,6 +3026,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wheelchair_ramps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wheelchair_ramps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#White-Tie -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#White-Tie">
@@ -2586,10 +3042,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wi-Fi_hotspots -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Wi-Fi_hotspots">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Winter -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Winter">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Workshop_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Workshop_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Worship_areas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Worship_areas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
     </owl:NamedIndividual>
     
 
@@ -2902,5 +3382,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
