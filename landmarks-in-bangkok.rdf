@@ -1148,7 +1148,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Bicycle_rental_stations">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Facility"/>
-        <f:hasFacility rdf:resource="http://www.semanticweb.org/ontologies/landmarks-in-bangkok#Guided_tours"/>
     </owl:NamedIndividual>
     
 
